@@ -62,22 +62,6 @@ header{
     background: url(./images/iphone_11_pro_large.jpg);
     margin-top: 4.4rem;
 }
-.hero{
-    height: 69rem;
-    background-size: auto 74rem;
-    background-position: center;
-    background-repeat: no-repeat;
-    border-top: #ffff;
-    border-bottom: .6rem solid #ffff;
-}
-
-
-
-
-
-.iphone-11-pro{
-    border-top: none;
-}
 .title{
     color: #ffff;
     text-align: center;
@@ -95,7 +79,64 @@ header{
     letter-spacing: .008rem;
     font-weight: 400;
 }
+.title-price{
+    font-size: 1.7rem;
+    color: #888;
+    margin-top: .68rem;
+}
+.cta{
+    text-align: center;
+    margin-top: 1.8rem;
+}
+.cta-link{
+    color: #66bbff;
+    font-size: 2rem;
+    font-display: inline-block;
+}
+.cta-link:nth-child(2){
+    margin-left: 2.5rem;
+}
+.cta-link:hover{
+    border-bottom: 2px solid #66bbff;
+}
+.iphone-11{
+    background: url(./images/iphone_11_large.jpg);
+}
+.title-dark{
+    color: #000;
+}
+.cta-link-darker{
+    color: #0070c9;
+}
+.cta-link-darker:hover{
+    border-bottom-color:#0070c9;
+}
+.watch{
+    background: url(./images/watch_medium.jpg) center no-repeat;
+}
 
+.title-heading-watch{
+    height: 7.8rem;
+    background: url(./images/logo_watch_medium.png) center no-repeat;
+    background-size: auto 8rem;
+    margin-top: 1.5rem;
+}
+.hero{
+    height: 69rem;
+    background-size: auto 74rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-top: #ffff;
+    border-bottom: .6rem solid #ffff;
+}
+
+
+
+
+
+.iphone-11-pro{
+    border-top: none;
+}
 
 
 
