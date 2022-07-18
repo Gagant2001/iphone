@@ -1,4 +1,6 @@
-*{
+*,
+*::before,
+*::after{
     margin: 0;
     padding: 0;
 }
@@ -89,7 +91,7 @@ header{
     margin-top: 1.8rem;
 }
 .cta-link{
-    color: #66bbff;
+    color: #0070c9;
     font-size: 2rem;
     font-display: inline-block;
 }
@@ -97,7 +99,7 @@ header{
     margin-left: 2.5rem;
 }
 .cta-link:hover{
-    border-bottom: 2px solid #66bbff;
+    border-bottom: 0px solid ;
 }
 .iphone-11{
     background: url(./images/iphone_11_large.jpg);
@@ -109,7 +111,7 @@ header{
     color: #0070c9;
 }
 .cta-link-darker:hover{
-    border-bottom-color:#0070c9;
+    border-bottom-color:#e5eaef;
 }
 .watch{
     background: url(./images/watch_large.jpg) center no-repeat;
