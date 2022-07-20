@@ -61,8 +61,11 @@ header{
     background: url(./images/bag.svg) center no-repeat;
 }
 .iphone-11-pro{
-    background: url(https://cdn.pixabay.com/photo/2017/01/22/12/07/imac-1999636_960_720.png);
+    background: url(https://9to5mac.com/wp-content/uploads/sites/6/2019/09/iPhone-11-Pro-Diary.jpg?quality=82&strip=all);
     margin-top: 4.4rem;
+    width: 100%;
+    margin-left:0%;
+    margin-right: 0%;
 }
 .title{
     color: #ffff;
@@ -103,6 +106,18 @@ header{
 }
 .iphone-11{
     background: url(./images/iphone_11_large.jpg);
+}
+.Mac{
+    background: url(https://www.apple.com/v/macbook-pro-14-and-16/b/images/overview/hero/intro__ewz1ro7xs14y_large.jpg);
+}
+.iPad{
+    background: url(https://www.cultofmac.com/wp-content/uploads/2019/03/New-iPad-Air-smart-keyboard-with-apple-pencil-03192019.jpg);
+    width: 100%;
+    background-size:cover;
+    background-repeat: no-repeat;
+    margin-left: 0%;
+    margin-right: 0%;
+
 }
 .title-dark{
     color: #000;
@@ -147,8 +162,14 @@ header{
     .iphone-11{
         background: url(./images/iphone_11_medium.jpg);
     }
+    .Mac{
+        background: url(https://www.apple.com/v/macbook-pro-14-and-16/b/images/overview/hero/intro__ewz1ro7xs14y_large.jpg);
+    }
     .watch{
         background: url(./images/watch_medium.jpg);
+    }
+    .iPad{
+        background: url(https://c4.wallpaperflare.com/wallpaper/697/620/59/apple-phone-laptop-tablet-wallpaper-preview.jpg);
     }
     .hero{
         height: 65rem;
@@ -187,7 +208,7 @@ header{
     }
     /* .nav-list-larger{
         display: none;
-    } */
+     } */
     .nav-link{
         margin-top: 0;
     }
@@ -314,8 +335,14 @@ header{
     .iphone-11{
         background: url(./images/iphone_11_small.jpg);
     }
+    .Mac{
+        background: url(https://www.apple.com/v/macbook-pro-14-and-16/b/images/overview/hero/intro__ewz1ro7xs14y_large.jpg);
+    }
     .watch{
         background: url(./images/watch_small.jpg);
+    }
+    .iPad{
+        background: url(https://c4.wallpaperflare.com/wallpaper/697/620/59/apple-phone-laptop-tablet-wallpaper-preview.jpg);
     }
     .hero{
         height: 50rem;
